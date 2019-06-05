@@ -1,0 +1,131 @@
+
+
+#routerContainer
+  display: flex
+  align-items: stretch
+  flex-wrap: wrap
+  justify-content: space-around
+
+  .appButtons
+    width: 100%
+    margin-right: $margin
+    margin-left: auto
+
+
+  #toolbar
+    display: flex
+    flex-direction: column
+    align-items: stretch
+    justify-content: flex-start
+    margin-left: auto
+    margin-right: auto
+    padding: $padding
+    min-width: $block_width * 0.5
+    overflow: hidden
+    margin-top: $block_width * 0.5
+
+    div
+      max-width: 90%
+
+      svg
+        fill: $color1
+        padding: $padding
+
+        &:hover, &:focus
+          fill: $color3
+
+  .canvasSection
+    margin:
+      top: $margin / 2
+      bottom: $margin / 2
+      left: auto
+      right: auto
+    display: flex
+    flex-direction: column
+    min-width: $block_width * 5
+    overflow: hidden
+
+    #currentStyle
+      width: $block_width * 6
+      min-height: $button_width * 2
+      margin-left: auto
+      margin-right: $margin * 2
+      display: flex
+      flex-direction: row
+      justify-content: flex-end
+      align-content: space-between
+
+      div
+        font-family: $font_family2
+        color: $color1
+        font-weight: bold
+        margin: 0 $margin
+
+        input
+          display: block
+          margin-top: $margin
+          width: 100%
+
+
+    .color
+      @include border($border, $color1)
+      border-radius: 40%
+      min-width: 70%
+      height: 90%
+      margin: $margin / 2.5
+      margin-top: $block_width * 0.5
+
+      &:hover, &:focus
+        border-color: $color3
+
+    #canvas
+      @include border($border * 2, $color1)
+      background-color: white
+      margin: $margin
+
+    .canvasButtons
+      display: flex
+      align-content: space-around
+
+      button
+        margin-left: 0
+
+    #clearBtn
+      margin-left: auto
+      margin-right: 0
+
+
+
+
+
+  #colorBlocks
+    margin-right: auto
+    margin-left: auto
+    margin-top: $block_width * 0.5
+    width: $button_width
+    display: flex
+    flex-direction: column
+    align-items: center
+    align-content: space-around
+
+    .color
+      @include border($border, $color1)
+      border-radius: 40%
+      min-width: 90%
+      margin: $margin / 2.5
+
+      &:hover, &:focus
+        border-color: $color3
+
+
+
+    @each $color, $value in (color1: #EE2029, color2: #EE7B20, color3: #F5E52E, color4: #58B422, color5: #75E1DC, color6: #1C20E9, color7: #781CE9, color8: #808080)
+      .#{$color}
+        background-color: $value
+
+
+
+
+
+
+

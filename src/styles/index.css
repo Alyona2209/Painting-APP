@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Roboto:400,700&subset=cyrillic,cyrillic-ext");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #59aed6;
+  display: flex;
+}
+
+header {
+  width: 100%;
+  align-content: center;
+}
+header #homeIcon {
+  position: absolute;
+  padding: 10px;
+  left: 20px;
+  top: 20px;
+  width: 3%;
+  height: 3%;
+}
+header h1 {
+  font-family: "Lobster", regular;
+  font-size: 4em;
+}
+header h1 .letter-1 {
+  color: #3345b2;
+}
+header h1 .letter-2 {
+  color: #3eb242;
+}
+header h1 .letter-3 {
+  color: #b2312a;
+}
+header h1 .letter-4 {
+  color: #b0b23b;
+}
+header h1 .letter-5 {
+  color: #2074b2;
+}
+header h1 .letter-6 {
+  color: #731cb2;
+}
+header h1 .letter-7 {
+  color: #077524;
+}
+header h1 .letter-8 {
+  color: #b24e95;
+}
+header h1 .letter-9 {
+  color: #b27e19;
+}
+
+/*# sourceMappingURL=index.css.map */

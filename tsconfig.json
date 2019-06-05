@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",        // path to output directory
+    "sourceMap": true,          // allow sourcemap support
+    "strictNullChecks": false,   // enable strict null checks as a best practice
+    "module": "es2015",            // specify module code generation
+    "jsx": "react",             // use typescript to transpile jsx to js
+    "target": "es2018",            // specify ECMAScript target version
+    "allowJs": true,
+    "downlevelIteration": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

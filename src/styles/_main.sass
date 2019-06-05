@@ -1,0 +1,104 @@
+$main_color: #76d5ec
+$color1: #485263
+$color2: #f8ae5d
+$color3: #e44022
+
+$font_family1: 'Seymour One', sans-serif
+$font_family2: 'Roboto', sans-serif
+
+$font_size: 1.4rem
+$font_size_large: 4rem
+$font_size_small: 1rem
+
+$padding: 10px
+$margin: 20px
+
+$button_width: 5%
+$button_height: 5%
+
+$block_width: 12%
+$border: 3px
+
+$image_width: 220px
+
+
+
+%button
+  background-color: $color2
+  border: 1px solid $color3
+  padding: 0 20px
+  margin: $margin / 2
+  font-size: $font_size * 0.8
+  font-family: $font_family2
+  color: $color1
+  line-height: $button_height * 35
+
+  &:hover, &:active
+    border-width: 3px
+
+@mixin align-center
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+@mixin border($width, $color)
+  border:
+    width: $width
+    style: solid
+    color: $color
+
+body
+  margin: 0
+  padding: 0
+  background-color: $main_color
+
+header
+  width: 100%
+
+  #homeIcon img
+    position: absolute
+    padding: $padding
+    left: $margin * 2
+    top: $margin
+    width: $button_width
+    height: auto
+
+
+  h1
+    text-align: center
+    max-width: 75%
+    margin-left: auto
+    margin-right: auto
+    font:
+      family: $font_family1
+      size: 350%
+
+    .letter-1
+      color: #e16006
+    .letter-2
+      color: #e27518
+    .letter-3
+      color: #e98b2b
+    .letter-4
+      color: #ffa022
+    .letter-5
+      color: #ff841b
+    .letter-6
+      color: #ea8b1b
+    .letter-7
+      color: #c56f14
+    .space
+      display: inline-block
+      width: 20px
+
+    #routerContainer
+      margin: $margin
+      display: flex
+      flex-wrap: wrap
+      align-items: stretch
+      justify-content: space-around
+
+button
+  @extend %button
+

@@ -1,0 +1,47 @@
+#homeNav
+  margin: $margin * 2 auto
+  min-width: $block_width * 3
+  min-height: $block_width * 2
+  @include border($border * 4, $color1)
+  background-color: $color2
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-direction: column
+
+
+  ul
+    height: 100%
+    overflow: auto
+    text-align: center
+    list-style-type: none
+    margin: 0
+    padding: 0
+    border: none
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+
+
+    li
+      @include border($border * 2, #fff)
+      margin: $margin
+      padding: $padding
+
+      &:hover
+        border-color: #b4b4b4
+
+
+    a
+      font:
+        family: $font_family1
+        size: $font_size_large
+      color: #fff
+      text-decoration: none
+
+      &:hover, &:focus
+        color: #b4b4b4
+
+
+
+

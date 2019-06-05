@@ -1,0 +1,45 @@
+
+
+
+  .gallery
+    margin: $margin auto
+    padding: $padding
+    min-width: $image_width * 4
+    max-width: $image_width * 6
+    min-height: $image_width * 3
+    overflow: auto
+    display: flex
+    flex-wrap: wrap
+    align-items: stretch
+    justify-content: space-around
+    background-color: $color2
+    @include border($border, $color3)
+
+    figure
+      overflow: hidden
+      margin: $margin / 4
+      background-color: #59aed6
+      @include border($border * 2, $color1)
+
+      &:focus, &:hover
+        border-color: $color3
+
+      img
+        display: block
+        max-height: 90%
+        width: auto
+        padding: $padding
+
+      figcaption
+        display: block
+        text-align: center
+        color: $color1
+        font-size: $font_size
+        font-family: $font_family1
+
+  .galleryButtons
+    display: flex
+    flex-wrap: wrap
+    align-items: flex-start
+    margin-left: $margin * 2
+    margin-top: $margin / 2
