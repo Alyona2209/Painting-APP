@@ -67,7 +67,7 @@ export class ChooseImagePage extends Page {
                 await dataBase.init('ColouringPage');
                 await dataBase.put(new Scene(ColouringPage.outlineImage), 'scene');
 
-                let outerPage = '/colouring';
+                let outerPage = '#colouring';
                 history.pushState(outerPage, null, outerPage);
                 history.pushState(outerPage, null, outerPage);
                 history.back();
@@ -75,13 +75,7 @@ export class ChooseImagePage extends Page {
             }
         });
 
-        /*addImageBtn.addEventListener('click', async () => {
-            if (this.currentImage) {
-                this.currentImage.closest('figure').remove();
-
-                await dataBase.delete(this.currentImage.src);
-            }
-        });*/
+        
 
     }
 }
