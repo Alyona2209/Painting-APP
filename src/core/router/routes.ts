@@ -9,36 +9,36 @@ import {Constructor} from "./router_interfaces";
 
 export const routes: Array<{path: string, page: Constructor<Page>, needsDB: boolean}> = [
     {
-        path: '/',
+        path: '',
         page: HomePage,
         needsDB: false
     },
    {
-        path: '/home',
+        path: 'home',
         page: HomePage,
         needsDB: false
     },
 
     {
-        path: '/colouring',
+        path: '#colouring',
         page: ColouringPage,
         needsDB: true
     },
 
     {
-        path: '/painting',
+        path: '#painting',
         page: PaintingPage,
         needsDB: true
     },
 
     {
-        path: '/my_paintings',
+        path: '#my_paintings',
         page: MyPaintingsPage,
         needsDB: true
     },
 
     {
-        path: '/choose_image',
+        path: '#choose_image',
         page: ChooseImagePage,
         needsDB: false
     }
