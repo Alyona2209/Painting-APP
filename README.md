@@ -8,4 +8,4 @@ I also use Webpack, Sass, Indexed DB technologies.
 Node.js version 10.16.0 is recomended.
 To start SPA run:
 npm i
-npm start
+npm run start
