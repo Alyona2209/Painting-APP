@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9596b668-567d-42da-930b-ee14f4a78c30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.390570d1205095755a54.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.390570d1205095755a54.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css.390570d1205095755a54.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css.390570d1205095755a54.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/router/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/router/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,14 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/router/routes.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
+            <state relative-caret-position="362">
               <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -67,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/http-server-spa.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="45" />
+              <caret line="6" column="45" selection-start-line="5" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -98,11 +100,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/canvas/tools/ellipse/ellipseObject.ts">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -144,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/core/canvas/canvas_interfaces.ts" />
-        <option value="$PROJECT_DIR$/src/custom.d.ts" />
         <option value="$PROJECT_DIR$/src/core/canvas/tools/filler/fillerObject.worker.ts" />
         <option value="$PROJECT_DIR$/src/core/canvas/tools/filler/fillerObjectWorker.ts" />
         <option value="$PROJECT_DIR$/src/core/canvas/tools/line/lineObject.ts" />
@@ -191,10 +186,12 @@
         <option value="$PROJECT_DIR$/src/pages/my-paintings/my_paintings-page.ts" />
         <option value="$PROJECT_DIR$/src/pages/choose-image/choose-image-page.ts" />
         <option value="$PROJECT_DIR$/src/pages/colouring/colouring-page.html" />
-        <option value="$PROJECT_DIR$/src/core/router/routes.ts" />
         <option value="$PROJECT_DIR$/src/pages/home/home-page.sass" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/core/router/router.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/core/router/routes.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -215,48 +212,6 @@
             <path>
               <item name="Painting-APP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Painting-APP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting-APP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting-APP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting-APP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting-APP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting-APP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting-APP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Painting-APP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Painting-APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -371,12 +326,12 @@
       <workItem from="1559307805906" duration="19986000" />
       <workItem from="1559333979180" duration="23580000" />
       <workItem from="1559381351500" duration="7782000" />
-      <workItem from="1564584617458" duration="4765000" />
+      <workItem from="1564584617458" duration="6613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354333000" />
+    <option name="totallyTimeSpent" value="356181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,8 +344,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6643836" visible="true" weight="0.24868283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6643836" visible="true" weight="0.24868283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.33561644" side_tool="true" visible="true" weight="0.24868283" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -404,7 +360,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.50574714" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32873562" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32873562" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -436,8 +392,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/eraser.svg" />
-    <entry file="file://$PROJECT_DIR$/src/assets/icons/filler.svg" />
     <entry file="file://$PROJECT_DIR$/src/assets/icons/rectangle.svg" />
     <entry file="file://$PROJECT_DIR$/src/core/canvas/tools/rect/rectIcon.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -752,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/app.acd62deb7566cce23208.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -778,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http-server-spa.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/router/router.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1449">
@@ -795,13 +735,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/http-server-spa.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="45" selection-start-line="5" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="161">
+            <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/router/routes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
+        <state relative-caret-position="362">
           <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
