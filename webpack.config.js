@@ -65,20 +65,7 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[hash].[ext]',
-                            outputPath: './assets/images',
-                        }
-                    }
-                ]
-            },
-
-            {
-                test: /\.ico$/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            name: '[name].[ext]',
-                            outputPath: './assets/images',
+                            outputPath: './assets/images'
                         }
                     }
                 ]
@@ -111,7 +98,8 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: path.resolve(SRC_DIR, './index.html')
+            template: path.resolve(SRC_DIR, './index.html'),
+            favicon: path.resolve(SRC_DIR, './favicon.ico')
         }),
         new MiniCssExtractPlugin({
             filename: '[name].[hash].css',
