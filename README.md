@@ -11,8 +11,8 @@ To start SPA run:
 
 npm i
 
-npm build
+npm run build
 
-npm install http-server-spa -g
+npm install http-server-spa -D
 
 http-server-spa dist index.html 9090
